@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.addFiles('lib/package-scan.js');
-  api.addFiles('private/alerts.json', 'server', {isAsset: true});
+  api.addFiles('data/alerts.json', 'server', {isAsset: true});
 });
 
 Package.onTest(function(api) {
