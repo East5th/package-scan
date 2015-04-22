@@ -1,0 +1,8 @@
+{
+    "autopublish": {
+        "*": "Here be dragons!"
+    },
+    "insecure": {
+        "*": "Here be dragons"
+    }
+}
