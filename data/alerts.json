@@ -1,8 +1,8 @@
 {
     "autopublish": {
-        "*": "Here be dragons!"
+        "*": "This package is not appropriate for production applications!"
     },
     "insecure": {
-        "*": "Here be dragons"
+        "*": "This package is not appropriate for production applications!"
     }
 }
