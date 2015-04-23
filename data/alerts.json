@@ -1,8 +1,8 @@
 {
     "autopublish": {
-        "*": "This package is not appropriate for production applications!"
+        "*": "This package is not appropriate for use in production applications!"
     },
     "insecure": {
-        "*": "This package is not appropriate for production applications!"
+        "*": "This package is not appropriate for use in production applications!"
     }
 }

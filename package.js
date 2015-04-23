@@ -12,9 +12,3 @@ Package.onUse(function(api) {
   api.addFiles('lib/package-scan.js');
   api.addFiles('data/alerts.json', 'server', {isAsset: true});
 });
-
-Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('package-scan');
-  api.addFiles('package-scan-tests.js');
-});
