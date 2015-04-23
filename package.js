@@ -2,7 +2,7 @@ Package.describe({
   name: 'pcorey:package-scan',
   version: '0.0.1',
   summary: 'Looks through your installed package list looking for dangerous packages.',
-  git: 'https://github.com/pcorey/package-scan',
+  git: 'https://github.com/East5th/package-scan',
   documentation: 'README.md',
   debugOnly: true
 });
