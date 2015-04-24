@@ -18,8 +18,6 @@ For example, if any version of [insecure](https://github.com/meteor/meteor/tree/
 insecure (*): This package is not appropriate for use in production applications!
 ```
 
-Be sure to keep Package Scan updated! This ensures that you're always scanning against the most up-to-date collection of package alerts.
-
 ## Why Use Package Scan?
 
 Meteor's isomorphic package system is amazingly powerful. Being able to add seamless front to back-end functionality with a single package leads to huge productivity boosts, but it can also lead to potential issues. Do you know exactly what is going on in that package you just added? Are you using old, outdated versions of packages that may have issues? Is that package even being maintained? Did you know that the [client is given a list of packages being used by your project](http://www.1pxsolidtomato.com/2015/04/24/black-box-meteor-package-scanning/)?
