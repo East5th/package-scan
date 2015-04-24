@@ -1,8 +1,14 @@
 {
-    "autopublish": {
-        "*": "This package is not appropriate for use in production applications!"
-    },
-    "insecure": {
-        "*": "This package is not appropriate for use in production applications!"
-    }
+    "autopublish": [
+        {
+            "range": "*",
+            "alert": "This package is not appropriate for use in production applications!"
+        }
+    ],
+    "insecure": [
+        {
+            "range": "*",
+            "alert": "This package is not appropriate for use in production applications!"
+        }
+    ]
 }
