@@ -12,10 +12,9 @@ meteor add east5th:package-scan
 
 On startup, Package Scan will parse your versions file and compare the packages being used in your project with a list of packages with known security issues. If a matching package is found, an alert describing the issue will be displayed in the server's logs. This is a debug only package, which means it will never be built into your production application.
 
-For example, if any version of [autopublish](https://github.com/meteor/meteor/tree/devel/packages/autopublish) or [insecure](https://github.com/meteor/meteor/tree/devel/packages/insecure) are being used by your project, you'll see the following alerts on startup:
+For example, if any version of [insecure](https://github.com/meteor/meteor/tree/devel/packages/insecure) is being used by your project, you'll see the following alert on startup:
 
 ```
-autopublish (*): This package is not appropriate for use in production applications!
 insecure (*): This package is not appropriate for use in production applications!
 ```
 
