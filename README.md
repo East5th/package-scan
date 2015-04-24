@@ -1,6 +1,6 @@
 # Package Scan
 
-This package is intended to be used as a security precaution to warn against the use of packages with known security issues.
+This Meteor package is intended to be used as a security precaution to warn against the use of packages with known security issues.
 
 ## Installation
 
