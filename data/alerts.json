@@ -13,7 +13,7 @@
     ],
     "telescope:core": [
         {
-            "range": ">=0.2.0 || <=0.20.0",
+            "range": ">=0.2.0 || <=0.21.1",
             "alert": "This version of Telescope is vulnerable to a privilege escalation attack. https://github.com/TelescopeJS/Telescope/blob/master/History.md#v0211-slugscope"
         }
     ]
