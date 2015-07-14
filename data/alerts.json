@@ -16,5 +16,11 @@
             "range": ">=0.2.0 || <=0.21.1",
             "alert": "This version of Telescope is vulnerable to a privilege escalation attack. https://github.com/TelescopeJS/Telescope/blob/master/History.md#v0211-slugscope"
         }
+    ],
+    "orionjs:config": [
+        {
+            "range": "<=0.1.1",
+            "alert": "Secret Keys can be queried from terminal client side. https://github.com/orionjs/orion/issues/210"
+        }
     ]
 }
