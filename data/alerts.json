@@ -1,4 +1,10 @@
 {
+    "aldeed:tabular": [
+        {
+            "range": ">=0.2.2",
+            "alert": "A malicious selector can be passed into tabular_getInfo. https://github.com/aldeed/meteor-tabular/issues/187"
+        }
+    ],
     "autopublish": [
         {
             "range": "*",
@@ -11,22 +17,16 @@
             "alert": "This package is not appropriate for use in production applications!"
         }
     ],
-    "telescope:core": [
-        {
-            "range": ">=0.2.0 || <=0.21.1",
-            "alert": "This version of Telescope is vulnerable to a privilege escalation attack. https://github.com/TelescopeJS/Telescope/blob/master/History.md#v0211-slugscope"
-        }
-    ],
     "orionjs:config": [
         {
             "range": "<=0.1.1",
             "alert": "Secret Keys can be queried from terminal client side. https://github.com/orionjs/orion/issues/210"
         }
     ],
-    "aldeed:tabular": [
+    "telescope:core": [
         {
-            "range": ">=0.2.2",
-            "alert": "A malicious selector can be passed into tabular_getInfo. https://github.com/aldeed/meteor-tabular/issues/187"
+            "range": ">=0.2.0 || <=0.21.1",
+            "alert": "This version of Telescope is vulnerable to a privilege escalation attack. https://github.com/TelescopeJS/Telescope/blob/master/History.md#v0211-slugscope"
         }
     ]
 }
