@@ -22,5 +22,11 @@
             "range": "<=0.1.1",
             "alert": "Secret Keys can be queried from terminal client side. https://github.com/orionjs/orion/issues/210"
         }
+    ],
+    "aldeed:tabular": [
+        {
+            "range": ">=0.2.2",
+            "alert": "A malicious selector can be passed into tabular_getInfo. https://github.com/aldeed/meteor-tabular/issues/187"
+        }
     ]
 }
