@@ -19,7 +19,7 @@
     ],
     "orionjs:accounts": [
         {
-            "range": ">=1.1.0",
+            "range": ">=1.1.0 || < 1.4.2",
             "alert": "Any user can change the password of any other user. https://github.com/orionjs/orion/issues/263"
         }
     ],
