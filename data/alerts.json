@@ -17,9 +17,15 @@
             "alert": "This package is not appropriate for use in production applications!"
         }
     ],
+    "orionjs:accounts": [
+        {
+            "range": ">=1.1.0",
+            "alert": "Any user can change the password of any other user. https://github.com/orionjs/orion/issues/263"
+        }
+    ],
     "orionjs:config": [
         {
-            "range": "<=0.1.1",
+            "range": "<=1.1.0",
             "alert": "Secret Keys can be queried from terminal client side. https://github.com/orionjs/orion/issues/210"
         }
     ],
