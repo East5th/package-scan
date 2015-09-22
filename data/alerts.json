@@ -16,7 +16,7 @@
             "range": "<=0.5.1",
             "alert": "Allows updates to any Mongo collection and is not meant for production use"
         }    
-    ]
+    ],
     "insecure": [
         {
             "range": "*",
