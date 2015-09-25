@@ -59,7 +59,7 @@
             "alert": "This version of Telescope is vulnerable to a privilege escalation attack.",
             "links": [
                 {
-                    "name": "Github Issue",
+                    "name": "Changelog",
                     "url": "https://github.com/TelescopeJS/Telescope/blob/master/History.md#v0211-slugscope"
                 }
             ]
