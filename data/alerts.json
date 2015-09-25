@@ -20,7 +20,13 @@
     "insecure": [
         {
             "range": "*",
-            "alert": "This package is not appropriate for use in production applications!"
+            "alert": "This package is not appropriate for use in production applications!",
+            "links": [
+                {
+                    "name": "Github Issue",
+                    "url": "http://www.google.com"
+                }
+            ]
         }
     ],
     "orionjs:accounts": [
