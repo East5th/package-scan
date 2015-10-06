@@ -18,6 +18,20 @@ For example, if any version of [insecure](https://github.com/meteor/meteor/tree/
 insecure (*): This package is not appropriate for use in production applications!
 ```
 
+##### Ignoring Alerts
+
+Alerts for specific packages can be ignored by setting up a `package-scan` block in your `settings.json` file:
+
+```
+{
+  "package-scan": {
+    "ignore": ["insecure"]
+  }
+}
+```
+
+This will prevent any alerts about the `insecure` package from being displayed in your console.
+
 ## Why Use Package Scan?
 
 Meteor's isomorphic package system is amazingly powerful. Being able to add seamless front to back-end functionality with a single package leads to huge productivity boosts, but it can also lead to potential issues. Do you know exactly what is going on in that package you just added? Are you using old, outdated versions of packages that may have issues? Is that package even being maintained? Did you know that the [client is given a list of packages being used by your project](http://www.1pxsolidtomato.com/2015/04/24/black-box-meteor-package-scanning/)?
@@ -30,7 +44,7 @@ Package Scan will only work with the community's support and involvement. Please
 
 Package Scan is still a very young project and can be improved immensely! Feel free to send pull requests!
 
-### Adding Alerts
+##### Adding Alerts
 
 Alerts can be added by submitting a pull request against the ```data/alerts.json``` file. ```alerts.json``` holds an array of semver ranges and alerts associated with that range for each vulnerable package.
 
