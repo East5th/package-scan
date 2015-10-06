@@ -26,7 +26,7 @@
     "cfs:standard-packages": [
         {
             "range": "*",
-            "alert": "Manipulating an uploaded image that has been renamed to a different filetype (e.g. a Quicktime movie renamed as a JPG file) and/or trying to manipulate bad/corrupt images can cause your Meteor server to crash.",
+            "alert": "Manipulating an uploaded image that has been renamed to a different filetype (e.g. a Quicktime movie renamed as a JPG file) and/or trying to manipulate bad/corrupt images can cause your Meteor server to repeatedly crash.",
             "links": [
                 {
                     "name": "Github Issue 1",
