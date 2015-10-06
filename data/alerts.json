@@ -23,6 +23,22 @@
             "alert": "Allows updates to any Mongo collection and is not meant for production use"
         }    
     ],
+    "cfs:standard-packages": [
+        {
+            "range": "*",
+            "alert": "Manipulating an uploaded image that has been renamed to a different filetype (e.g. a Quicktime movie renamed as a JPG file) and/or trying to manipulate bad/corrupt images can cause your Meteor server to crash.",
+            "links": [
+                {
+                    "name": "Github Issue 1",
+                    "url": "https://github.com/CollectionFS/Meteor-CollectionFS/issues/550"
+                },
+                {
+                    "name": "Github Issue 2 with Work-Around",
+                    "url": "https://github.com/CollectionFS/Meteor-CollectionFS/issues/227"
+                },
+            ]
+        }
+    ],
     "insecure": [
         {
             "range": "*",
@@ -62,22 +78,6 @@
                     "name": "Changelog",
                     "url": "https://github.com/TelescopeJS/Telescope/blob/master/History.md#v0211-slugscope"
                 }
-            ]
-        }
-    ],
-    "cfs:standard-packages": [
-        {
-            "range": "*",
-            "alert": "Manipulating an uploaded image that has been renamed to a different filetype (e.g. a Quicktime movie renamed as a JPG file) and/or trying to manipulate bad/corrupt images can cause your Meteor server to crash.",
-            "links": [
-                {
-                    "name": "Github Issue 1",
-                    "url": "https://github.com/CollectionFS/Meteor-CollectionFS/issues/550"
-                },
-                {
-                    "name": "Github Issue 2 with Work-Around",
-                    "url": "https://github.com/CollectionFS/Meteor-CollectionFS/issues/227"
-                },
             ]
         }
     ]
