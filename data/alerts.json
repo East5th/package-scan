@@ -45,6 +45,22 @@
             "alert": "This package is not appropriate for use in production applications!"
         }
     ],
+    "meteorhacks:sikka": [
+        {
+            "range": "*",
+            "alert": "",
+            "links": [
+                {
+                    "name": "Github Issue",
+                    "url": "https://github.com/meteorhacks/sikka/issues/6"
+                },
+                {
+                    "name": "Crater comment describing issue",
+                    "url": "https://crater.io/posts/D8Puif9p2qqcy8KfF/introducing-sikka-a-firewall-for-your-meteor-app#3BGEpf5gH8sLzLzYP"
+                }
+            ]
+        }
+    ],
     "orionjs:accounts": [
         {
             "range": "1.1.0 - 1.4.2",
