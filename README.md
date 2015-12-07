@@ -2,6 +2,8 @@
 
 This Meteor package is intended to be used as a security precaution to warn against the use of packages with known security issues.
 
+Want to try Package Scan without adding it to your project? Try the [drag-and-drop web interface](http://scan.east5th.co/).
+
 ## Installation
 
 ```
