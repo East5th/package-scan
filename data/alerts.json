@@ -85,6 +85,18 @@
             ]
         }
     ],
+    "rubaxa:sortable": [
+        {
+            "range": "<=1.2.0",
+            "alert": "Arbitrary numeric fields in any collection can be incremented by an attacker.",
+            "links": [
+                {
+                    "name": "Github Commit",
+                    "url": "https://github.com/RubaXa/Sortable/commit/aa80521cb25b7df076826ca5f8b3d321a35944dc"
+                }
+            ]
+        }
+    ],
     "telescope:core": [
         {
             "range": "0.2.0 - 0.21.1",
