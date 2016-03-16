@@ -45,6 +45,18 @@
             "alert": "This package is not appropriate for use in production applications!"
         }
     ],
+    "kit:basic-auth": [
+        {
+            "range": "*",
+            "alert": "This package is theoretically vulnerable to a timing attack.",
+            "links": [
+                {
+                    "name": "Github Issue",
+                    "url": "https://github.com/cwaring/meteor-basic-auth/issues/2"
+                }
+            ]
+        }
+    ],
     "meteorhacks:sikka": [
         {
             "range": "*",
