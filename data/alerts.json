@@ -11,6 +11,18 @@
             ]
         }
     ],
+    "aslagle:reactive-table": [
+        {
+            "range": "<0.6.8",
+            "alert": "Publications are not re-evaluated when the current user changes.",
+            "links": [
+                {
+                    "name": "Github Issue",
+                    "url": "https://github.com/aslagle/reactive-table/issues/164"
+                }
+            ]
+        }
+    ],
     "autopublish": [
         {
             "range": "*",
