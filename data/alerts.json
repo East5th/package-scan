@@ -57,6 +57,18 @@
             "alert": "This package is not appropriate for use in production applications!"
         }
     ],
+    "jabbslad:basic-auth": [
+        {
+            "range": "*",
+            "alert": "DDP connections are not protected by Basic Auth",
+            "links": [
+                {
+                    "name": "Summary",
+                    "url": "http://blog.east5th.co/2016/03/28/bypassing-basic-auth-through-ddp-connections/"
+                }
+            ]
+        }
+    ],
     "kit:basic-auth": [
         {
             "range": "*",
@@ -65,6 +77,16 @@
                 {
                     "name": "Github Issue",
                     "url": "https://github.com/cwaring/meteor-basic-auth/issues/2"
+                }
+            ]
+        },
+        {
+            "range": "*",
+            "alert": "DDP connections are not protected by Basic Auth",
+            "links": [
+                {
+                    "name": "Summary",
+                    "url": "http://blog.east5th.co/2016/03/28/bypassing-basic-auth-through-ddp-connections/"
                 }
             ]
         }
