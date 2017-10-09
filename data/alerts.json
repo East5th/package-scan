@@ -11,6 +11,18 @@
             ]
         }
     ],
+    "allow-deny": [
+        {
+            "range": "<1.0.9",
+            "alert": "By sending a specially crafted WebSocket payload, a malicious client can execute an update operation on individual MongoDB documents in violation of the collection’s allow and deny rules, when particular third-party packages are installed.",
+            "links": [
+                {
+                    "name": "Meteor allow/deny vulnerability disclosure",
+                    "url": "https://forums.meteor.com/t/meteor-allow-deny-vulnerability-disclosure/39500"
+                }
+            ]
+        }
+    ],
     "aslagle:reactive-table": [
         {
             "range": "<0.6.8",
