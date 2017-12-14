@@ -103,6 +103,22 @@
             ]
         }
     ],
+    "meteorhacks:kadira": [
+        {
+            "range": "<=2.30.3",
+            "alert": "An attack payload can be delivered remotely, resulting in a Denial-of-Service and require the application to be restarted.",
+            "links": [
+                {
+                    "name": "Denial-of-Service disclosure for Meteor APM/Kadira agent",
+                    "url": "https://forums.meteor.com/t/denial-of-service-disclosure-for-meteor-apm-kadira-agent/41127"
+                },
+                {
+                    "name": "Github Pull Request",
+                    "url": "https://github.com/meteorhacks/kadira/pull/264"
+                }
+            ]
+        }
+    ],
     "meteorhacks:sikka": [
         {
             "range": "*",

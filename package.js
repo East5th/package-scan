@@ -1,6 +1,6 @@
 Package.describe({
     name: 'east5th:package-scan',
-    version: '0.0.5',
+    version: '0.0.6',
     summary: 'Looks through your installed package list looking for dangerous packages.',
     git: 'https://github.com/East5th/package-scan',
     documentation: 'README.md',
