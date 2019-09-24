@@ -10,6 +10,7 @@ Package.describe({
 Package.onUse(function(api) {
     api.versionsFrom('1.2.0.1');
     api.use('http');
+    api.use('underscore');
     api.addFiles('lib/package-scan.js', 'server');
     api.addAssets('data/alerts.json', 'server');
 });
